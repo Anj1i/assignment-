@@ -1,0 +1,9 @@
+#importing the package numpy as pynum
+import numpy as pynum
+#creating a three dimensional array using the array function and storing it in the variable called threedimarray
+threedimarray = pynum.array([[[10,20,30,40], [50,60,70,80]]])
+#displaying the elements of the newly created three dimensional array followed by an one line space
+print 'The elements of the newly created three-dimensional array are:'
+print '\n'
+print threedimarray
+print '\n'
